@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Inventory Pro Automation Suite">
+    <listeners>
+        <listener class-name="com.inventory.listeners.TestListener"/>
+    </listeners>
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.inventory.tests.LoginTest"/>
+            <class name="com.inventory.tests.ProductTest"/>
+            <class name="com.inventory.tests.OrderTest"/>
+        </classes>
+    </test>
+</suite>
